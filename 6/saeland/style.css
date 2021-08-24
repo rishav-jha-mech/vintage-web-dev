@@ -1,0 +1,263 @@
+*{                /* This Is For The Entire Body*/
+margin: 0;
+padding: 0;
+font-family: sans-serif;
+
+}
+.backgroundOne{
+
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.2);
+    background-blend-mode: color;
+    background-image: url(images/bg1.jpg);
+    
+    
+    background-position: center;
+    background-size: cover;
+    position: relative;
+        
+}
+.nav-bar{
+display: flex;
+padding-left: 40px;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0));    
+}
+
+.nav-logo img
+{
+    height:  100px;
+    float: left;
+    margin-top: 5px ;
+    transition: 0.5s;
+    
+}
+.nav-logo img:hover{
+    
+    height: 150px;
+    float:left;
+    transition: 0.5s;
+
+}
+
+.nav-links{
+flex:1;
+padding-top: 15px;
+}
+.nav-links ul{
+    font-family: "Raleway", sans-serif;
+    display: inline;
+    align-self: center;
+
+}
+.nav-links ul li{
+    
+    display: block;
+    padding: 8px 15px;
+    float: right;
+}
+.nav-links ul a li{
+
+    color: white;
+    text-decoration: none;
+    font-weight: lighter;
+    font-size: 30px;
+    padding: 22px 40px;
+    display: block;
+    
+}
+.nav-links ul a li:hover{
+    color: black;
+ font-size: 35px;
+ font-weight: 400;
+ text-decoration: underline;
+ 
+ text-decoration-color: rgb(47, 255, 255);
+ text-decoration-thickness: 5px;
+ transition: 1s;
+ padding: auto;
+ margin: auto;
+}
+#titleSAE{
+
+
+    float: left;
+    color: gold;
+    text-shadow: 5px 5px rgba(0, 0, 0, 0.5);
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 8rem;
+    padding-top:35vh ;
+    margin-left: 50px;
+    margin-bottom: -50px;
+    float: left;
+    transition: 0.8s;
+    text-shadow: 0 5px 5px black,
+                 0 5px 5px black,
+                 0 5px 5px black,
+                 0 5px 5px black;
+    
+}
+#titleSAE:hover{
+
+    color: chartreuse;
+    font-size: 11rem;
+    transition: 0.8s;
+    text-shadow: 0 0px 8px crimson,
+                 0 0px 8px crimson,
+                 0 0px 8px crimson,
+                 0 0px 8px crimson;
+}
+#titleSAEkeniche{
+
+    text-align:left;
+    color: white;
+    font-size: 28px;
+    font-weight: lighter;
+    padding-bottom: 150px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-shadow: 3px 3px rgba(0, 0, 0, 0.6);
+    padding-top: 65vh;
+    margin-left: 25px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    border-bottom: 0px;
+    font-weight: 900;
+    text-shadow: 0 0px 3px black,
+                 0 0px 3px black,
+                 0 0px 3px black,
+                 0 0px 3px black;
+}
+.ABOUTUS{
+
+        text-align: center;
+        padding: 40px;
+    text-shadow: 3px 3px rgba(0, 0, 0, 0.5);
+}
+span{
+          font-family: 'Share Tech Mono', monospace;
+          font-size: 65px;
+          padding-top: 15px;
+          
+}
+#ABOUTUSkeniche {
+
+        padding-left: 70px;
+        padding-right: 40px;
+        text-align: left;
+        float: center;
+        font-family: 'Open Sans Condensed', sans-serif;
+        color: #4d4a4a;
+        line-height: 1.75;
+        box-sizing: border-box;
+        font-size: 20px;
+        font-weight: lighter;
+}
+#memb{
+
+    padding: 70px;
+}
+b{
+
+    font-weight: 300;
+}
+li{
+
+    font-size: 20px;
+    box-sizing: border-box;
+     color: #4d4a4a;
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-align: left;
+    float: left;
+    line-height: 2rem;
+
+}
+
+@media (max-width:600px){
+
+    .backgroundOne{
+
+
+    background-color: rgba(0, 0, 0, 0.4);
+    
+}
+    #titleSAE{
+
+        margin-top: 3vh;
+        padding-top: 0;
+        font-size: 100px;
+        font-weight: 600;
+        margin-left: 10px;
+        color: pink;
+    text-shadow: 0 0px 8px blue,
+                 0 0px 8px blue,
+                 0 0px 8px blue,
+                 0 0px 8px blue;
+    }
+    #titleSAEkeniche{
+
+        margin: 20px;
+        padding-top: 160px;
+        text-shadow: none;
+        font-weight: 400;
+        font-size: 20px;
+
+    }
+    
+    #titleSAE:hover{
+
+        font-size: 100px;
+    }
+    
+    .nav-logo img{
+        height:  70px;
+    }
+    .nav-links ul{
+        display: flex;
+        justify-content: end;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+    .nav-links ul a li{
+
+        color: white;
+        text-decoration: none;
+        font-weight: lighter;
+        font-size: 30px;
+        padding: 22px 40px;
+        display: block;
+    
+    }
+
+    #memb{
+
+        margin: 0;
+        padding-left: 0;
+        padding-right: 0;
+        font-size: 10px;
+        text-align: center;
+
+    }
+    #memb span{
+        font-size: 50px;
+
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

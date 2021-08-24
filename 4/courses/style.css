@@ -1,0 +1,190 @@
+*{
+
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+h1{
+    text-align: center;
+    color:azure;
+    font-size: 400%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+header {
+
+background-color: rgb(10, 80, 80);  
+padding: 30px;
+margin: 0px 0px 0px 0px;
+
+
+}
+header:hover{
+
+  background-color:darkblue;
+}
+nav{
+  background-color: black;
+  padding: 30px;
+}
+a{
+  font-size: 150%;
+  padding: 15px;
+  text-align: center;
+  color: azure;
+  text-decoration: none;
+  font-style: bold;
+  
+}
+a:hover
+{
+  background-color:greenyellow;
+  color: black;
+  font-weight: 1000;
+}
+input{
+  
+float: right;
+padding-top: 3px;
+font-size: 20px;
+color:rebeccapurple;
+border-radius: 30px;
+}
+
+h2{
+  text-align: center;
+  font-size: 48px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bolder; 
+  margin-left: center;
+  background-color:#FEE715FF;
+  color: #101820FF;
+  padding: 50px;
+
+}
+h2:hover{
+background-color: darkred;
+color: beige;
+}
+.foot{
+float: inherit;
+background-color: #FEE715FF;
+font-family: Georgia, 'Times New Roman', Times, serif;
+color: red;
+font-weight: 900;
+}
+footer{
+
+  background-color: rgb(64, 0, 124);
+  padding: 30px;
+}
+.about{
+align-self: center;
+  background-color: springgreen;
+}
+.pic{
+height: 500px;
+width: 500px;
+padding-top: 50px;
+border-radius: 60%;
+
+}
+h3{
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+float: center;
+text-align: center;
+padding: 70px;
+
+}
+.harry{
+background-color: burlywood;
+
+}
+.aman{
+
+  background-color: rosybrown;
+
+}
+.abouta{
+  background-color: darkmagenta;
+  color: gold;
+}
+.bus{
+
+  background-color: skyblue;
+}
+.gus{
+  background-color: pink;
+}
+/*JUST CAME BACK TO REDIFINBE SOMETHINGS UPDATE DATE 31/03/2021*/
+.harry{
+
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 0;
+  margin-right: 0;
+  flex-wrap: wrap;
+}
+
+.harry_videos{
+
+  padding: 30px;
+  margin-left: 0;
+  margin-right: 0;  
+
+}
+.harry_videos iframe{
+
+  width: 800px;
+  height: 400px;
+}
+.aman{
+
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 0;
+  margin-right: 0;
+  flex-wrap: wrap;
+}
+
+.aman_videos{
+
+  padding: 30px;
+  margin-left: 0;
+  margin-right: 0;  
+
+}
+.aman_videos iframe{
+
+  width: 800px;
+  height: 400px;
+}
+.papa{
+
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 0;
+  margin-right: 0;
+  flex-wrap: wrap;
+  overflow: hidden;
+}
+.box {
+
+  overflow-y: hidden;
+  
+}
+
+.center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}

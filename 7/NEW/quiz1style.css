@@ -1,0 +1,405 @@
+* {
+  margin: 0px;
+  overflow-x: hidden;
+}
+html {
+  scroll-behavior: smooth;
+
+  transition: 1s;
+}
+::-webkit-scrollbar{
+
+  display: none;
+}
+/*
+font-family: 'Open Sans Condensed', sans-serif;
+
+font-family: 'Share Tech Mono', monospace;
+
+*/
+::-webkit-scrollbar{
+
+  display: hidden;
+}
+x:hover{
+
+  color: black;
+}
+.bg2{
+
+  
+  background-image: linear-gradient(to bottom , #70e1f5,#ffd194);
+}
+h1 {
+  color: crimson;
+  font-family: "Share Tech Mono", monospace;
+  font-size: 70px;
+  float: center;
+  text-align: center;
+  padding-top: 20px;
+  padding: 60px;
+  background-image: linear-gradient(to bottom , #70e1f5,#ffd194);
+}
+.wastebuttons {
+  padding: 10px;
+  text-align: center;
+  float: center;
+  font-size: 40px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-weight: bold;
+  margin-top: 5%;
+  overflow: hidden;
+  margin-bottom: 5%;
+  border-color: transparent;
+  font-family: sans-serif;
+}
+.wastebuttons a {
+  text-decoration: none;
+  margin: 15px;
+  padding: 15px;
+  overflow: hidden;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 10px;
+  font-family: "Open Sans Condensed", sans-serif;
+  color: azure;
+  background-color: #ee2a7b;
+  transition: 0.5s;
+
+  box-shadow: 8px 8px 10px black;
+}
+.wastebuttons a:hover{
+  transition: 0.5s;
+  color: yellow;
+  background-color: blue;
+  padding: 14px;
+  box-shadow: 0px 0px 0px 5px lightseagreen,
+              0px 0px 0px 5px lightseagreen,
+              0px 0px 0px 5px lightseagreen,
+              0px 0px 0px 5px lightseagreen;
+
+}
+
+.bg1 {
+  background-image: linear-gradient(49.2deg, #f9ed32, #ee2a7b, #002aff);
+  background-blend-mode: color;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+
+h2 {
+  padding: 20px;
+  font-family: "Share Tech Mono", monospace;
+  font-size: 47px;
+  margin-bottom: 80px;
+  text-align: center;
+  float: center;
+  transition: 0.7s;
+}
+h2:hover {
+  font-size: 55px;
+  transition: 0.5s;
+  text-shadow: 5px 5px 6px black;
+}
+#xmen {
+  font-size: 65px;
+}
+#new_rules {
+  font-family: "Open Sans Condensed", sans-serif;
+  float: center;
+  text-align: left;
+  font-size: 30px;
+  padding-bottom: 30px;
+  margin-left: 40px;
+  line-height: 0.9cm;
+  color: black;
+}
+.rules:hover {
+  color: white;
+}
+.parent {
+  margin-left: 15%;
+  margin-right: 15%;
+  box-shadow: 10px 10px 15px rgb(29, 16, 16);
+  margin-bottom: 5%;
+  border-radius: 20px;
+  float: center;
+  background-image: linear-gradient(49.2deg, #f9ed32, #ee2a7b, #002aff);
+  overflow: hidden;
+  transition: 0.5s;
+}
+/*
+
+box-shadow: 10px 10px 15px rgb(29, 16, 16);
+
+box-shadow: 20px 20px 15px lightseagreen;
+*/
+.parent:hover {
+  transition: 0.5s;
+  box-shadow: 20px 20px 15px lightseagreen;
+}
+.parent2 {
+
+  margin-top: 100px;
+box-shadow: 10px 10px 15px rgb(29, 16, 16);
+  transition: 0.5s;
+}
+.parent2:hover {
+  transition: 0.5s;
+box-shadow: 20px 20px 15px lightseagreen;
+}
+
+.child {
+  margin: 10%;
+  padding: 20px;
+  color: white;
+  padding-top: 40px;
+  text-align: center;
+  float: center;
+  padding-bottom: -100px;
+}
+.naam {
+  padding: 15px;
+  float: center;
+  text-align: center;
+  border-width: 0px;
+}
+.name span {
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: 45px;
+  padding-left: 0px;
+  text-align: center;
+  float: center;
+}
+
+.naam input {
+  border-radius: 50px;
+  padding: 20px;
+  border-width: 0px;
+  margin-top: 15px;
+  text-align: center;
+  float: center;
+  background-color: rgba(255, 255, 255, 0.568);
+}
+.bg1 {
+  padding-bottom: 5px;
+  padding-top: 35px;
+}
+.parent2 {
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-bottom: 10%;
+  border-radius: 20px;
+  box-shadow: 5px 5px 8px rgb(29, 16, 16);
+  float: center;
+  background-image: linear-gradient(49.2deg, #f9ed32, #ee2a7b, #002aff);
+  overflow: hidden;
+}
+
+.child2 {
+  margin: 10%;
+  padding: 20px;
+  color: white;
+  text-align: center;
+  float: center;
+  padding-bottom: -100px;
+}
+.QUIZ {
+  padding: 15px;
+  float: center;
+  text-align: center;
+  border-width: 0px;
+}
+span {
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: 30px;
+  padding-left: 0px;
+  text-align: center;
+  float: center;
+}
+.kuchbhi {
+  color: hotpink;
+  font-size: 25px;
+  padding: 15px;
+  background-color: azure;
+  float: center;
+  text-align: left;
+  font-family: "Open Sans Condensed", sans-serif;
+  border-radius: 50px;
+  transition: 0.8s;
+}
+.kuchbhi:hover {
+  transition: 0.6s;
+  padding: 22px;
+  font-size: 30px;
+  background-color: greenyellow;
+}
+
+.QUIZ input {
+  padding: 20px;
+  margin-top: 15px;
+  margin-left: -300px;
+  float: center;
+  background-color: rgba(255, 255, 255, 0.568);
+}
+
+.submit {
+  padding: 25px;
+  font-size: 25px;
+  padding-left: 50px;
+  padding-right: 50px;
+  font-weight: bold;
+  text-align: center;
+
+  border-radius: 20px;
+  border-width: 0px;
+
+  color: #f9ed32;
+  background-image: linear-gradient(45deg, purple, red);
+  font-family: "Open Sans Condensed", sans-serif;
+  box-shadow: 5px 5px 6px black;
+}
+.aisehi {
+  margin-top: -10vh;
+  float: center;
+  text-align: center;
+  padding-bottom: 100px;
+}
+.aisehi img {
+  height: 50px;
+  width: 50px;
+  float: left;
+}
+.footer{
+
+  background-color: black;
+}
+
+.wastebuttons{
+
+  float: center;
+  margin: 25px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.beta{
+
+  margin: 40px;
+}
+
+.beti{
+
+  margin: 40px;
+}
+
+/*NICHE ME APNA PAGE KO HUM RESPONSIVE BNA RAE HAI*/
+
+@media (max-width: 600px) {
+  .parent {
+    margin: 0px;
+    border-radius: 0px;
+    box-shadow: none;
+    float: left;
+    text-align: center;
+    box-shadow: none;
+  }
+  .bg1 {
+    padding: 0px;
+    margin: 0px;
+  }
+
+  .parent2 {
+    margin: 0px;
+    border-radius: 0px;
+    box-shadow: none;
+  }
+  h1 {
+    font-size: 40px;
+    padding: 20px;
+  }
+  .wastebuttons {
+    
+    margin: 0px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    text-align: center;
+    float: center;
+
+  }
+  .wastebuttons a{
+
+    font-size: 20px;
+    margin: 20px;
+    padding: 20px;
+
+  }
+  
+  .wastebuttons a:hover{
+
+    padding: zero;
+  }
+
+  .submit {
+    float: center;
+    margin-top: 30px;
+    margin-left: 35%;
+    margin-right: 35%;
+    padding: 20px;
+    color: #f9ed32;
+    background-image: linear-gradient(45deg, purple, red);
+    box-shadow: 2px 2px 4px black;
+  }
+  #new_rules {
+    font-size: 1px;
+    margin-left: 0px;
+    float: center;
+    text-align: left;
+  }
+
+  .naam span {
+    font-size: 30px;
+  }
+  .QUIZ {
+    font-size: 25px;
+    margin-bottom: 40px;
+  }
+  .kuchbhi {
+    font-size: 20px;
+    padding: 15px;
+  }
+  .kuchbhi:hover {
+    font-size: 20px;
+  }
+  h2 {
+    margin-bottom: 10px;
+    font-size: 40px;
+    float: center;
+  }
+  .aisehi {
+    text-align: center;
+    float: center;
+  }
+  .aisehi img {
+    float: right;
+    margin-top: 80px;
+  }
+  .rules{
+    font-size: 22px;
+
+  }
+  .beta a{
+
+    font-size: 40px;
+  }
+
+  .beti a{
+
+    font-size: 30px;
+
+  }
+
+}

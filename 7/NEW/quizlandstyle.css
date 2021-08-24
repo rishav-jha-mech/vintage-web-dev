@@ -1,0 +1,484 @@
+/*IDHAR SE APNA QUIZ KA PAGE START HOTA HAI */
+* {
+  margin: 0;
+  padding: 0;
+}
+green{
+
+  color: greenyellow;
+
+}
+::-webkit-scrollbar{
+
+  display: none;
+}
+
+.papa {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 10%;
+  padding-right: 10%;
+  float: center;
+  text-align: center;
+  background-color: black;
+  color: aqua;
+  margin: 0px;
+}
+.papa h1 {
+  font-size: 8rem;
+  text-align: center;
+  float: center;
+  text-transform: uppercase;
+  font-family: "Share Tech Mono", monospace;
+  text-shadow: 7px 4px 4px blue;
+  transition: 0.5s;
+}
+.papa h1:hover {
+
+  color: yellow;
+  font-size: 10rem;
+  text-shadow: 10px 10px 12px purple;
+  transition: 0.5s;
+}
+.papa p {
+  text-align: center;
+  float: center;
+  text-transform: uppercase;
+  font-size: 20px;
+  margin-left: 0;
+  margin-right: 0;
+  font-family: "Open Sans Condensed", sans-serif;
+  padding: 50px;
+}
+.cards p {
+  font-family: "Share Tech Mono", monospace;
+  font-size: 2rem;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  margin-bottom: 40px;
+}
+
+.parent1 {
+  margin: 0;
+  padding: 0;
+  
+  display: flex;
+  /*flex-wrap: wrap;*/
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+.parent2 {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  /*flex-wrap: wrap;*/
+  justify-content: space-between;
+}
+
+.card1 {
+  background-image: linear-gradient(to right, #ff512f, #dd2476);
+  padding: 40px;
+  margin-top:     60px;
+  margin-bottom:  60px;
+  text-align: left;
+  height: 83vh;
+  width: 60vh;
+  position: relative;
+  margin: 8px;
+  box-shadow: 0 0 10px 3px blue,
+              0 0 10px 3px blue,
+              0 0 10px 3px blue,
+              0 0 10px 3px blue;
+  transition: 0.5s;
+}
+#dhat{
+
+  line-height: 2pc;
+}
+
+.card2 {
+  background-image: linear-gradient(to right, #aa076b, #61045f);
+  padding: 40px;
+  text-align: left;
+   margin-top:     60px;
+  margin-bottom:   60px;
+  position: relative;
+  height: 83vh;
+  width: 60vh;
+  margin: 8px;
+  justify-content: center;
+  box-shadow: 0 0 10px 3px gold,
+              0 0 10px 3px gold,
+              0 0 10px 3px gold,
+              0 0 10px 3px gold;
+  transition: 0.5s;
+}
+.card3 {
+  background-image: linear-gradient(to right, #ec9f05, #ff4e00);
+  padding: 40px;
+  text-align: left;
+  height: 97vh;
+  width: 60vh;
+  margin-top:     60px;
+margin-bottom:   60px;
+  position: relative;
+  margin: 8px;
+  box-shadow: 0 0 10px 3px lightseagreen,
+              0 0 10px 3px lightseagreen,
+              0 0 10px 3px lightseagreen,
+              0 0 10px 3px lightseagreen;
+  transition: 0.5s;
+}
+span:hover{
+
+  color: white;
+
+}
+.card4 {
+  background-image: linear-gradient(to right, #20bf55, #01baef);
+  padding: 40px;
+  text-align: left;
+  position: relative;
+  height: 97vh;
+  width: 60vh;
+  margin-top:     60px;
+margin-bottom:   60px;
+  margin: 8px;
+  justify-content: center;
+  box-shadow: 0 0 10px 3px chartreuse,
+              0 0 10px 3px chartreuse,
+              0 0 10px 3px chartreuse,
+              0 0 10px 3px chartreuse;
+  transition: 0.5s;
+}
+
+.parent1 h1 {
+  font-size: 60px;
+  color: azure;
+  text-shadow: 8px 8px 8px black;
+  margin-bottom: 100px;
+}
+.card1 h1{
+
+  margin-bottom: 40px;
+}
+.parent1 p {
+  font-size: 20px;
+  color: azure;
+    text-shadow: 2px 2px 3px black;
+
+}
+
+.parent1 h1:hover{
+
+    font-size: 60px;
+    text-shadow: 4px 4px 5px blue;
+    transform: translateY(-15px);
+
+}
+.parent1 p:hover{
+
+    transition: 0.5s;
+    text-shadow: 8px 8px 6px black;
+    transform: translateY(-10px);
+
+}
+
+.parent2 h1 {
+  font-size: 60px;
+  color: azure;
+  text-shadow: 4px 4px 4px black;
+  margin-bottom: 100px;
+}
+.card3 h1{
+
+  margin-bottom: 40px;
+}
+.parent2 p {
+  font-size: 20px;
+  color: azure;
+    text-shadow: 2px 2px 3px black;
+
+}
+
+.parent2 h1:hover{
+  font-size: 60px;
+    text-shadow: 8px 8px 8px black;
+    transform: translateY(-15px);
+
+}
+.parent2 p:hover{
+
+    transition: 0.5s;
+    text-shadow: 8px 8px 6px black;
+    transform: translateY(-10px);
+}
+
+#cum{
+
+  font-size: 40px;
+  text-shadow: 8px 8px 10px seagreen;
+    transition: 0.7s;
+}
+#cum:hover{
+
+  
+  font-size: 48px;
+  color: gold;
+  text-shadow: 8px 8px 10px purple;
+  position: relative;
+  transition: 0.7s;
+
+}
+.card1:hover{
+  box-shadow: 0 0 10px 3px red,
+              0 0 10px 3px red,
+              0 0 10px 3px red,
+              0 0 10px 3px red;
+transition: 0.4s;
+transform: translateY(-25px);
+
+}
+.card2:hover{
+  box-shadow: 0 0 10px 3px darkcyan,
+              0 0 10px 3px darkcyan,
+              0 0 10px 3px darkcyan,
+              0 0 10px 3px darkcyan;
+transition: 0.4s;
+transform: translateY(-25px);
+
+}
+.card3:hover{
+  box-shadow: 0 0 10px 3px fuchsia,
+              0 0 10px 3px fuchsia,
+              0 0 10px 3px fuchsia,
+              0 0 10px 3px fuchsia;
+transition: 0.4s;
+transform: translateY(-25px);
+
+}
+.card4:hover{
+  box-shadow: 0 0 10px 3px firebrick,
+              0 0 10px 3px firebrick,
+              0 0 10px 3px firebrick,
+              0 0 10px 3px firebrick;
+transition: 0.4s;
+transform: translateY(-25px);
+
+}
+.att{
+
+  text-decoration: none;
+  text-shadow: none;
+  color: white;
+  transform: none;
+  background-image: linear-gradient(to right, #8e0e00 ,#1f1c18);
+  color: yellow;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 20px;
+  transition: 0.5s;
+  box-shadow: 2px 3px 4px black;
+}
+.att:hover{
+
+  font-size: 25px;
+  background: chartreuse;
+  color: black;
+  transition: 0.5s;
+}
+
+#b:hover{
+
+  
+  font-size: 25px;
+  background: chartreuse;
+  color: black;
+  transition: 0.5s;
+
+}
+#c:hover{
+
+  
+  font-size: 25px;
+  background: chartreuse;
+  color: black;
+  transition: 0.5s;
+
+}
+#d:hover{
+
+  
+  font-size: 25px;
+  background: chartreuse;
+  color: black;
+  transition: 0.5s;
+
+}
+/*IDHAR SE APNA WEBSITE RESPONSIVE BANA NE KA PRAKRIYA SHURU */
+
+@media (max-width: 600px) {
+  .parent1 {
+    flex-wrap: wrap;
+  }
+
+  .parent2 {
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 600px) {
+
+  *{
+
+    margin: 0;
+    padding: 0;
+  }
+  .papa h1{
+
+    font-size: 75px;
+    text-align: center;
+  }
+  .papa p{
+    
+    font-size: 10px;
+padding: 8px;    
+text-align: center;
+  }
+  #cum{
+    font-size: 15px;
+  }
+  .papa{
+    margin: 0;
+    padding: 0;
+  }
+.parent1{
+
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-direction: row;
+  text-shadow: none;
+  
+}
+.parent2{
+
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-direction: row;
+  text-shadow: none;
+}
+.parent1 h1{
+  font-size: 30px;
+  padding:6px;
+}
+.parent1 h1:hover{
+  font-size: 30px;
+}
+.parent1 p{
+
+  font-size: 10px;
+}
+
+.parent2 h1{
+  font-size: 30px;
+    padding:6px;
+}
+.parent h1:hover{
+  font-size: 30px;
+}
+.parent2 p{
+
+  font-size: 15px;
+}
+.card1{
+
+  margin: 0;
+  padding: 5px;
+  height: min-content;
+  box-shadow: none;
+  margin-bottom: 40px;
+
+}
+
+.card2{
+
+  margin: 0;
+  padding: 5px;
+  height: min-content;
+  box-shadow: none;
+  margin-bottom: 40px;
+
+}
+
+.card3{
+
+  margin: 0;
+  padding-bottom: 10px;
+  height: min-content;
+  box-shadow: none;
+  margin-bottom: 40px;
+}
+.card4{
+
+  margin: 0;
+  padding: 5px;
+  height: min-content;
+  box-shadow: none;
+margin-bottom: 40px;
+}
+
+.card3:hover h1{
+
+  font-size: 50px;
+
+}
+.parent1 p{
+
+  padding-left:  10%;
+  padding-right: 10%;
+  font-size: 20px;
+}
+.parent2 p{
+
+  
+  padding-left:  10%;
+  padding-right: 10%;
+  font-size: 20px;
+
+}
+.parent1 h1{
+
+  padding-top: 40px;
+}
+.parent2 h1{
+
+
+  padding-top: 40px;
+}
+#dhat{
+
+  font-size: 15px;
+}
+#cum{
+
+    font-size: 25px;
+
+}
+
+.papa h1:hover{
+
+  font-size: 30px;
+  transform: translateY(0px);
+}
+.quiz_ke_niche span:hover{
+
+  color: aqua;
+}
+
+}

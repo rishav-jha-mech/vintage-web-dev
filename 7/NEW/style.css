@@ -1,0 +1,511 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+
+
+* {
+  /* This Is For The Entire Body*/
+  margin: 0;
+  padding: 0;
+}
+html {
+  scroll-behavior: smooth;
+  transition: 1s;
+}
+
+/* IDHAR HUM LOG SCROLL BAR HTA DENGE THORA AUR SEXY LAGEGA*/
+::-webkit-scrollbar {
+  display: none;
+}
+x:hover{
+
+  color: #ee2a7b;
+  font-weight: bold;
+}
+
+.backgroundOne {
+  height: 100vh;
+
+  width: auto;
+  background-color: rgba(0, 0, 0, 0.2);
+  background-blend-mode: color;
+  background-image: url(images/bg1.jpg);
+
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.nav-bar {
+  display: flex;
+  padding-left: 40px;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.4),
+    rgba(0, 0, 0, 0)
+  );
+}
+
+.nav-logo img {
+  height: 100px;
+  float: left;
+  margin-top: 5px;
+  transition: 0.5s;
+}
+
+.nav-logo img:hover {
+  height: 150px;
+  float: left;
+  transition: 0.5s;
+}
+
+.nav-links {
+  flex: 1;
+  padding-top: 15px;
+}
+.nav-links ul {
+  font-family: "Raleway", sans-serif;
+  display: inline;
+  align-self: center;
+}
+.nav-links ul li {
+  font-family: "Raleway", sans-serif;
+  display: block;
+  padding: 8px 15px;
+  float: right;
+}
+.nav-links ul a li {
+  font-family: "Raleway", sans-serif;
+  color: white;
+  text-decoration: none;
+  font-weight: lighter;
+  transition: 0.5s;
+  font-size: 20px;
+  padding: 22px 20px;
+  display: block;
+}
+
+.nav-links ul a li:hover {
+  color: black;
+  font-size: 35px;
+  font-weight: 400;
+  text-decoration: underline;
+
+  text-decoration-color: rgb(47, 255, 255);
+  text-decoration-thickness: 5px;
+  transition: 1s;
+  padding: auto;
+  margin: auto;
+}
+
+#titleSAE {
+  float: left;
+  color: whitesmoke;
+  text-shadow: 5px 5px rgba(0, 0, 0, 0.5);
+  font-family: "Share Tech Mono", monospace;
+  font-size: 8rem;
+  padding-top: 35vh;
+  margin-left: 50px;
+  float: left;
+  transition: 1s;
+  position: absolute;
+}
+#titleSAE:hover {
+  transition: 1s;
+  color: #ee2a7b;
+  font-size: 10rem;
+  position: absolute;
+}
+#titleSAEkeniche {
+  text-align: left;
+  color: white;
+  font-size: 30px;
+  width: fit-content;
+  font-weight: lighter;
+  padding-bottom: 150px;
+  font-family: "Open Sans Condensed", sans-serif;
+  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.6);
+  padding-top: 65vh;
+  margin-left: 25px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  border-bottom: 0px;
+}
+
+/*IDHAR APAN LOG EK CLASS BANADIYEE JO ABOUT US AUR SAEINDIA Membership KA HEADER KA KAAM KARDEGA*/
+.ABOUTUS {
+  text-align: center;
+  padding: 40px;
+  text-shadow: 3px 3px rgba(0, 0, 0, 0.5);
+}
+span {
+  font-family: "Share Tech Mono", monospace;
+  font-size: 65px;
+  padding-top: 15px;
+}
+#ABOUTUSkeniche {
+  padding-left: 70px;
+  padding-right: 40px;
+  text-align: left;
+  float: center;
+  font-family: "Open Sans Condensed", sans-serif;
+  color: #4d4a4a;
+  line-height: 1.75;
+  font-size: 20px;
+  font-weight: lighter;
+}
+#memb {
+  padding: 70px;
+  color: black;
+}
+b {
+  font-weight: 300;
+}
+.ekunorderedlist li {
+  font-size: 20px;
+  box-sizing: border-box;
+  color: #4d4a4a;
+  text-align: left;
+  float: left;
+  line-height: 2rem;
+  font-family: "Open Sans Condensed", sans-serif;
+}
+#stupidfont {
+  font-family: "Open Sans Condensed", sans-serif;
+}
+
+/*IDHAR TAK APNA SAEINDIA Membership KA PAGE KA CSS THA*/
+
+/*IDHAR SE APNA QUIZ KA PAGE START HOTA HAI */
+
+.bg5 {
+  height: 83vh;
+  width: auto;
+  background-image: url(images/bg5.jpg);
+
+  padding-bottom: -100px;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.papa {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 10%;
+  padding-right: 10%;
+  float: center;
+  text-align: center;
+  background-color: black;
+  color: aqua;
+  margin: 0px;
+}
+.papa h1 {
+  font-size: 8rem;
+  text-align: center;
+  float: center;
+  text-transform: uppercase;
+  font-family: "Share Tech Mono", monospace;
+  text-shadow: 6px 3px 4px blue;
+  transition: 0.5s;
+}
+.papa h1:hover{
+
+text-shadow: 6px 3px 4px red;
+transition: 0.5s;
+}
+.papa p {
+  text-align: center;
+  float: center;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-family: "Open Sans Condensed", sans-serif;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.cards p {
+  font-family: "Share Tech Mono", monospace;
+  font-size: 2rem;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  margin-bottom: 40px;
+}
+
+.parent1 {
+  margin: 0px;
+  margin-left: -10%;
+  margin-right: -10%;
+  padding: 10px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.card1 {
+  background-image: linear-gradient(to right, #ff512f, #dd2476);
+  padding: 40px;
+  text-align: left;
+  position: relative;
+  margin: 8px;
+  justify-content: center;
+  box-shadow: 5px 5px 6px blue;
+  transition: 0.5s;
+}
+.card1 h1 {
+  font-size: 40px;
+  padding: 8px;
+  text-shadow: 6px 6px 6px black;
+}
+.card1 p {
+  font-size: 20px;
+  text-align: left;
+  text-shadow: 3px 3px 4px black;
+}
+
+.card2 {
+  background-image: linear-gradient(to right, #aa076b, #61045f);
+  padding: 40px;
+  text-align: left;
+  position: relative;
+  margin: 8px;
+  justify-content: center;
+  box-shadow: 5px 5px 6px red;
+  transition: 0.5s;
+}
+.card1:hover {
+  box-shadow: 5px 5px 6px lightseagreen;
+  transition: 0.5s;
+  transform: translateY(-25px);
+}
+.card2:hover {
+  box-shadow: 5px 5px 6px limegreen;
+  transition: 0.5s;
+  transform: translateY(-25px);
+}
+.card2 h1 {
+  font-size: 40px;
+  padding: 8px;
+  text-align: center;
+  padding-bottom: 50px;
+  text-shadow: 6px 6px 6px black;
+}
+.card2 p {
+  font-size: 20px;
+  text-align: left;
+  text-shadow: 3px 3px 4px black;
+}
+
+.parent1 a {
+  text-decoration: none;
+  color: azure;
+}
+
+/*IDHAR SE SECOND ROW SHURU*/
+.cards2 p {
+  font-family: "Share Tech Mono", monospace;
+  font-size: 2rem;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  margin-bottom: 40px;
+}
+
+.parent2 {
+  margin: 0px;
+  margin-left: -10%;
+  margin-right: -10%;
+  padding: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.card3 {
+  background-image: linear-gradient(to right, #ec9f05, #ff4e00);
+  padding: 40px;
+  text-align: left;
+  position: relative;
+  margin: 8px;
+  justify-content: center;
+  box-shadow: 5px 5px 6px blue;
+  transition: 0.5s;
+}
+.card3 h1 {
+  font-size: 40px;
+  padding: 8px;
+  text-shadow: 6px 6px 6px black;
+}
+.card3 p {
+  font-size: 20px;
+  text-align: left;
+  text-shadow: 3px 3px 4px black;
+}
+
+.card4 {
+  background-image: linear-gradient(to right, #20bf55, #01baef);
+  padding: 40px;
+  text-align: left;
+  position: relative;
+  margin: 8px;
+  justify-content: center;
+  box-shadow: 5px 5px 6px red;
+  transition: 0.5s;
+}
+.card3:hover {
+  box-shadow: 5px 5px 6px lightseagreen;
+  transition: 0.5s;
+  transform: translateY(-25px);
+}
+.card4:hover {
+  box-shadow: 5px 5px 6px limegreen;
+  transition: 0.5s;
+  transform: translateY(-25px);
+}
+.card4 h1 {
+  font-size: 40px;
+  padding: 8px;
+  text-align: center;
+  padding-bottom: 50px;
+  text-shadow: 6px 6px 6px black;
+}
+.card4 p {
+  font-size: 20px;
+  text-align: left;
+  text-shadow: 3px 3px 4px black;
+}
+
+.parent2 a {
+  text-decoration: none;
+  color: azure;
+}
+
+/*IDHAR APNA QUIZ KA PAGE KHATAM HOTA HAI */
+
+/*IDHAR SE HUMLOG KA FOOTER KA CSS START HOTA HAI*/
+
+.footer {
+  padding-bottom: 100px;
+  color: white;
+  font-family: "Share Tech Mono", monospace;
+  overflow: hidden;
+}
+.footer a {
+  text-decoration: none;
+  align-items: center;
+  font-family: "Share Tech Mono", monospace;
+  padding-bottom: 15px;
+  font-size: 15px;
+}
+.footer ul {
+  overflow: none;
+}
+
+.footer li {
+  float: left;
+  text-align: center;
+  list-style: none;
+  padding-left: 90px;
+  padding-top: 100px;
+}
+
+.imgfoot {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 30%;
+  transition: 0.8s;
+}
+
+.fut {
+  width: 5rem;
+  border-radius: 50%;
+  height: 5rem;
+  border-radius: 50%;
+  transition: 0.8s;
+  float: left;
+  overflow-y: hidden;
+  position: absolute;
+}
+.fut:hover {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  transition: 0.8s;
+}
+.footer h6 {
+  padding-top: 10px;
+  font-family: "Share Tech Mono", monospace;
+  text-align: center;
+  font-weight: bold;
+  color: black;
+    text-shadow: 6px 6px 7px blue;
+    transition: 0.5s;
+  font-size: 70px;
+  padding: 20px;
+  font-weight: lighter;
+  transition: 1s;
+}
+.footer h6:hover {
+  font-size: 90px;
+text-shadow: 6px 6px 7px red;
+  transition: 0.6s;
+}
+
+.footer h5 {
+  padding-top: 25px;
+  color: aqua;
+  font-size: 15px;
+  transition: 0.5s;
+      text-shadow: 4px 4px 5px black;
+
+}
+.footer h5:hover {
+  font-size: 17px;
+  padding-top: 25px;
+  color: white;
+  position: relative;
+  float: center;
+  transition: 0.8s;
+      text-shadow: 6px 6px 7px #aa076b;
+
+}
+
+.footer img:hover {
+  width: 110px;
+  height: auto;
+  transition: 0.5s;
+  border-radius: 30%;
+  float: center;
+}
+
+#location:hover {
+  height: 110px;
+}
+#facebook:hover {
+  height: 110px;
+}
+#instagram:hover {
+  height: 110px;
+}
+#gmail:hover {
+  height: 110px;
+}
+#linkdin:hover {
+  height: 110px;
+}
+#phone:hover {
+  height: 110px;
+}
+.copyright {
+  background-color: black;
+  margin-bottom: -100px;
+}
+
+
+/*idhar apan log ka footer ka css khatam hota hai*/
+
+@media (max-width: 600px) {
+
+
+    .card1{flex-wrap: wrap;}
+    .parent2{flex-wrap: wrap;}
+
+
+
+}
+ 

@@ -1,0 +1,392 @@
+@import url("https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap");
+
+/*
+
+font-family: 'Open Sans Condensed', sans-serif;
+
+font-family: 'Share Tech Mono', monospace;
+
+
+background-image: linear-gradient(49.2deg, #f9ed32, #ee2a7b, #002aff);
+
+*/
+* {
+  margin: 0;
+  padding: 0;
+
+}
+
+/*Pehla PAGE*/
+h3 {
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: 80px;
+  letter-spacing: 1.5rem;
+  color: azure;
+  text-shadow: 4px 4px blue;
+  text-align: center;
+  padding: 20px;
+}
+.parent2 {
+  background-image: linear-gradient(45deg, #b95ce4, #4f29cd);
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.beta {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-image: linear-gradient(to bottom, #11998e, #38ef7d);
+  padding-top: 150px;
+  padding-bottom: 150px;
+  overflow-x: hidden;
+}
+.beta h1 {
+  text-align: center;
+  letter-spacing: 3px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  text-transform: capitalize;
+  font-family: "Open Sans Condensed", sans-serif;
+  padding: 18px;
+  padding-left: 0;
+  padding-right: 0;
+  color: #f9ed32;
+  text-shadow: 5px 5px black;
+  font-size: 50px;
+}
+.beta p {
+  font-size: 15px;
+  float: left;
+  font-family: "Share Tech Mono", monospace;
+  padding: 18px;
+  color: chartreuse;
+  font-size: 15px;
+  transition: 0.5s;
+}
+.prof {
+  padding: 4px;
+  background-image: linear-gradient(49.2deg, #f9ed32, #ee2a7b, #002aff);
+  border-radius: 10px;
+  width: 250px;
+  height: 300px;
+}
+.socialMedia {
+  border-radius: 55%;
+  margin-left: 5px;
+  margin-right: 3px;
+  transition: 0.5s;
+}
+#facebook:hover {
+  box-shadow: 0px 0px 6px 6px #0ff; /*YEHI NAYA CHEZ SIKHE HAI*/
+  transition: 0.5s;
+}
+#instagram:hover {
+  box-shadow: 0px 00px 6px 6px purple; /*YEHI NAYA CHEZ SIKHE HAI*/
+  transition: 0.5s;
+}
+#github:hover {
+  box-shadow: 0px 00px 6px 6px crimson; /*YEHI NAYA CHEZ SIKHE HAI*/
+  transition: 0.5s;
+}
+#pinterest:hover {
+  box-shadow: 0px 00px 6px 6px #ee2a7b; /*YEHI NAYA CHEZ SIKHE HAI*/
+  transition: 0.5s;
+}
+#facebook:hover {
+  box-shadow: 0px 00px 6px 6px #0ff; /*YEHI NAYA CHEZ SIKHE HAI*/
+  transition: 0.5s;
+}
+
+.beta1,
+.beta2,
+.beta3 {
+  margin: 18px;
+  border: 2px solid black;
+  padding: 30px;
+  text-align: center;
+  border-radius: 10px;
+  transition: 0.5s;
+  margin-left: 10px;
+  margin-right: 10px;
+  float: left;
+  box-shadow: 0px 0px 4px 4px yellow; /*YEHI NAYA CHEZ SIKHE HAI*/
+  background-color: #000000;
+  background-image: linear-gradient(315deg, #000000 0%, #414141 74%);
+  width: 25%;
+}
+.beta1:hover,
+.beta2:hover,
+.beta3:hover,
+.beta4:hover,
+.beta5:hover,
+.beta6:hover {
+  transition: 0.5s;
+  transition-delay: 0.2s;
+  transform: translateY(-40px);
+  box-shadow: 0px 0px 7px 7px #ee2a7b; /*YEHI NAYA CHEZ SIKHE HAI*/
+}
+.beta1 {
+  display: flex;
+  flex-direction: column;
+}
+
+/*YE dusra PAGE ISME BHI CARD BANAENGAY PAR CHOTA HOGA*/
+
+.guardian {
+  background: black;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.guardian h1 {
+  color: rgb(212, 245, 245);
+  padding: 15px;
+  font-size: 35px;
+  letter-spacing: 2px;
+  text-shadow: 3px 3px black;
+  text-transform: capitalize;
+  font-family: "Open Sans Condensed", sans-serif;
+  font-family: "Share Tech Mono", monospace;
+}
+
+.guardian p {
+  padding: 10px;
+  color: yellow;
+  text-shadow: 1px 1px black;
+  font-family: "Share Tech Mono", monospace;
+}
+h4 {
+  background: linear-gradient(to right, limegreen, blue);
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: 80px;
+  letter-spacing: 1.5rem;
+  color: azure;
+  text-shadow: 4px 4px blue;
+  text-align: center;
+  padding: 20px;
+}
+.son1,
+.son2,
+.son3,
+.son4 {
+  width: auto;
+  background-image: linear-gradient(145deg, #b95ce4, #4f29cd);
+  margin: 5px;
+  margin-bottom: 5px;
+  border-radius: 10px;
+  width: 23.8%;
+  box-shadow: 0px 0px 3px 3px #0ff; /*YEHI NAYA CHEZ SIKHE HAI*/
+  transition: 0.5s;
+}
+
+.prof2 {
+  height: 350px;
+  width: 300px;
+  border-radius: 10px;
+  background-image: linear-gradient(49.2deg, #f9ed32, #ee2a7b, #002aff);
+}
+
+#c2 {
+  background-image: linear-gradient(49.2deg, #f9ed32, #ee2a7b, #002aff);
+}
+
+.stupidIcons {
+  height: 30px;
+  width: 30px;
+  margin: 10px;
+  border-radius: 55%;
+  border: 2px solid black;
+  transition: 0.5s;
+}
+.bc img {
+  box-shadow: 0px 0px 3px 3px crimson; /*YEHI NAYA CHEZ SIKHE HAI*/
+}
+.bc {
+  background-color: azure;
+  border-radius: 6px;
+  transition: 0.8s;
+}
+
+#rj:hover {
+  transition: 1.2s;
+  background-color: chartreuse;
+}
+#rb:hover {
+  transition: 1.2s;
+  background-color: chartreuse;
+}
+#us:hover {
+  transition: 1.2s;
+  background-color: chartreuse;
+}
+#rd:hover {
+  transition: 1.2s;
+  background-color: chartreuse;
+}
+#rj1 {
+  transition: 0.8s;
+  background-color: white;
+}
+#rb1{
+  transition: 0.8s;
+  background-color: white;
+}
+#us1 {
+  transition: 0.8s;
+  background-color: white;
+}
+#rj1:hover {
+  transition: 1.2s;
+  background-color: transparent;
+}
+#rb1:hover {
+  transition: 1.2s;
+  background-color: transparent;
+}
+#us1:hover {
+  transition: 1.2s;
+  background-color: transparent;
+}
+.gal1:hover,
+.gal2:hover,
+.gal3:hover {
+  transition: 0.5s;
+  box-shadow: 0px 0px 5px 5px #ee2a7b; /*YEHI NAYA CHEZ SIKHE HAI*/
+}
+.gal1,
+.gal2,
+.gal3{
+  width: auto;
+  background-image: linear-gradient(145deg, #200122,#6f0000);
+  margin: 5px;
+  margin-bottom: 5px;
+  border-radius: 10px;
+  width: 28%;
+  box-shadow: 0px 0px 4px 4px #0ff; /*YEHI NAYA CHEZ SIKHE HAI*/
+  transition: 0.5s;
+  padding: 10px;
+}
+.prof3 {
+  height: 350px;
+  width: 300px;
+  padding: 3px;
+  border-radius: 10px;
+  background-image: linear-gradient(49.2deg, #f9ed32, #ee2a7b, #002aff);
+}
+
+#c3 {
+  background-image: linear-gradient(49.2deg, #f9ed32, #ee2a7b, #002aff);
+}
+/*AKHIRI PAGE*/
+.lastpage{
+
+  background-image: linear-gradient(49.2deg, #f9ed32, #ee2a7b, #002aff);
+  height: 100vh;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.ma{
+
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+
+}
+
+.beti{
+
+ 
+  background-color: #000000;
+  
+
+}
+
+.ma iframe{
+
+  width: 400px;
+  height: 400px;
+  margin: 15px;
+}
+
+h5{
+
+  font-size: 100px;
+  font-family: 'Share Tech Mono', monospace;
+  color: aqua;
+  text-shadow: 6px 6px red;
+}
+
+h6{
+
+  font-size: 50px;
+  font-family: 'Share Tech Mono', monospace;
+  color: yellow;
+  text-shadow: 4px 4px red;
+  padding: 10px;
+
+}
+
+.son1:hover,
+.son2:hover,
+.son3:hover,
+.son4:hover {
+  width: auto;
+  background-image: linear-gradient(145deg, #b95ce4, #4f29cd);
+  margin: 5px;
+  margin-bottom: 5px;
+  border-radius: 10px;
+  width: 23.8%;
+  box-shadow: 0px 0px 5px 5px #ee2a7b; /*YEHI NAYA CHEZ SIKHE HAI*/
+  transition: 0.5s;
+}
+
+
+
+
+
+@media (max-width: 1000px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  .beta{
+    flex-direction: column;
+  }
+  .beta1,
+  .beta2,
+  .beta3{
+    width: auto;
+  }
+  .guardian{
+    flex-direction: column;
+  }
+  .son1,
+  .son2,
+  .son3,
+  .son4{
+    width: auto;
+    margin: 20px 12px 20px 12px;
+  }
+  .son1:hover,
+  .son2:hover,
+  .son3:hover,
+  .son4:hover{
+    width: auto;
+    margin: 20px 12px 20px 12px;
+  }
+  .gal1,
+  .gal2,
+  .gal3{
+    width: auto;
+    margin: 20px 12px 20px 12px;
+
+  }
+}
